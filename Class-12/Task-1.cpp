@@ -9,15 +9,12 @@ int person[61];
 int main() {
     optimize();
     lk();
-  int a;
-  cin>>a;
-  int person=0;
-  while(a>=1){
-    a=a-5;
-    person++;
-  }
-cout<<person<<endl;
 
+int a;
+cin>>a;
+int person=(a/6)+1;
+
+cout<<person<<endl;
 
 return 0;
 

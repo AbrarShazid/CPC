@@ -18,7 +18,8 @@ lk();
   }
   x++;
  }
-
+//problem link:
+//https://lightoj.com/problem/dimik-descending-number
 
    return 0;
   }

@@ -21,7 +21,8 @@ lk();
     cout<<"odd"<<endl;
   }
  }
-
+//problem link:
+//https://lightoj.com/problem/dimik-even-odd-1
 
    return 0;
   }

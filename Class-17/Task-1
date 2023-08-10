@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef double dl;
+#define endl '\n'
+#define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define lk() cout.unsetf(ios::floatfield);cout.precision(3);cout.setf(ios::fixed,ios::floatfield);
+int main() {
+optimize();
+lk();
+ int x=1;
+
+ for(int i=1000;i>0;i--){
+  cout<<i<<" ";
+  if(x==5){
+    cout<<endl;
+    x=0;
+  }
+  x++;
+ }
+
+//problem link:
+//https://lightoj.com/problem/dimik-descending-number
+   return 0;
+  }

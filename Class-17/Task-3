@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef double dl;
+#define endl '\n'
+#define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define lk() cout.unsetf(ios::floatfield);cout.precision(3);cout.setf(ios::fixed,ios::floatfield);
+int main() {
+optimize();
+lk();
+ 
+ int x;
+ cin>>x;
+ while(x--){
+  int b;
+  cin>>b;
+  ll fac=1;
+  for(int i=1;i<=b;i++){
+    fac*=i;
+  }
+  cout<<fac<<endl;
+ }
+
+
+   return 0;
+  }

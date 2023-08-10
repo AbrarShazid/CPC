@@ -20,7 +20,8 @@ lk();
   }
   cout<<fac<<endl;
  }
-
+//problem link:
+//https://lightoj.com/problem/dimik-factorial
 
    return 0;
   }
